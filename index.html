@@ -2,19 +2,55 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Login - Mountain Gear</title>
+  <title>Mountain Gear Store</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="login-page">
+<body>
 
-  <div class="login-card">
-    <h2>Mountain Gear Login</h2>
-    <input type="text" placeholder="Username">
-    <input type="password" placeholder="Password">
-    <input type="text" placeholder="Alamat Rumah">
-    <input type="text" placeholder="No WhatsApp">
-    <button onclick="login()">Login</button>
+<nav>
+  <h2>🏔 Mountain Gear</h2>
+  <div class="menu">
+    ⋮
+    <div class="dropdown">
+      <a href="cart.html">Keranjang</a>
+    </div>
   </div>
+</nav>
+
+<header class="hero">
+  <h1>Perlengkapan Terbaik Untuk Mendaki Gunung</h1>
+  <p>Siap menemani petualanganmu</p>
+</header>
+
+<section class="products">
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+    <h3>Hydropack</h3>
+    <p>Rp 250.000</p>
+    <button onclick="addToCart('Hydropack',250000)">Tambah ke Keranjang</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1514474959185-1470f4c8a5de">
+    <h3>Carrier 60L</h3>
+    <p>Rp 850.000</p>
+    <button onclick="addToCart('Carrier 60L',850000)">Tambah ke Keranjang</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1598970434795-0c54fe7c0642">
+    <h3>Trekking Pole</h3>
+    <p>Rp 300.000</p>
+    <button onclick="addToCart('Trekking Pole',300000)">Tambah ke Keranjang</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519">
+    <h3>Daypack</h3>
+    <p>Rp 400.000</p>
+    <button onclick="addToCart('Daypack',400000)">Tambah ke Keranjang</button>
+  </div>
+</section>
 
 <script src="js/script.js"></script>
 </body>
