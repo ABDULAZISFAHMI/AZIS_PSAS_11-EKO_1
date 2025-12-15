@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.login-page {
+  background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover;
+  height: 100vh;
+}
+
+.login-card {
+  width: 300px;
+  margin: auto;
+  margin-top: 120px;
+  padding: 20px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 10px;
+}
+
+.login-card input, button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #2c3e50;
+  color: white;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b') center/cover;
+  height: 300px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  padding: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
